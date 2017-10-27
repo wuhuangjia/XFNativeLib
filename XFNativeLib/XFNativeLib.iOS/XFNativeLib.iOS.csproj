@@ -101,6 +101,7 @@
   <ItemGroup>
     <ProjectReference Include="..\XFNativeLib\XFNativeLib.csproj">
       <Name>XFNativeLib</Name>
+      <Project>{66454C88-67A1-4C4E-9C92-ABBD80AF4FE8}</Project>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
