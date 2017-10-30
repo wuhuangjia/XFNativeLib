@@ -138,6 +138,7 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\textanalyzerService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -161,9 +162,13 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\XFNativeLib.Droid.AARBinding.textanalyzer\XFNativeLib.Droid.AARBinding.textanalyzer.csproj">
+      <Project>{62ef406c-4436-4009-adb6-66d83c12d4bf}</Project>
+      <Name>XFNativeLib.Droid.AARBinding.textanalyzer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\XFNativeLib\XFNativeLib.csproj">
+      <Project>{66454c88-67a1-4c4e-9c92-abbd80af4fe8}</Project>
       <Name>XFNativeLib</Name>
-      <Project>{66454C88-67A1-4C4E-9C92-ABBD80AF4FE8}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

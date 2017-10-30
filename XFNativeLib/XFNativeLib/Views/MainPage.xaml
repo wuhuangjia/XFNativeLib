@@ -6,6 +6,10 @@
              x:Class="XFNativeLib.Views.MainPage"
              Title="MainPage">
   <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-    <Label Text="{Binding Title}" />
-  </StackLayout>
+        <Label Text="{Binding NumVowels}" />
+        <Label Text="{Binding NumConsonants}" />
+        <Entry Text="{Binding inputmsg}"/>
+        <Button Text="NumVowelsBtnCommand" Command="{Binding NumVowelsBtnCommand}"/>
+
+    </StackLayout>
 </ContentPage>
